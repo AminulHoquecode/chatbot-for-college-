@@ -1,0 +1,67 @@
+[
+  {
+    "question": "What is the full name of the college?",
+    "answer": "Delhi College of Technology and Management (DCTM).",
+    "tags": ["name","college"]
+  },
+  {
+    "question": "Where is DCTM located?",
+    "answer": "DCTM is located in Palwal, Haryana, India (close to Delhi NCR).",
+    "tags": ["location","address"]
+  },
+  {
+    "question": "When was DCTM established?",
+    "answer": "DCTM was established in 2008.",
+    "tags": ["established","history"]
+  },
+  {
+    "question": "Which university is DCTM affiliated to?",
+    "answer": "DCTM is affiliated with JC Bose University of Science and Technology, YMCA, Faridabad.",
+    "tags": ["affiliation"]
+  },
+  {
+    "question": "Is DCTM approved by AICTE?",
+    "answer": "Yes — DCTM is approved by AICTE (All India Council for Technical Education).",
+    "tags": ["approval","aicte"]
+  },
+  {
+    "question": "What engineering courses are offered?",
+    "answer": "Engineering courses: Mechanical Engineering, Civil Engineering, Computer Science & Engineering, Electronics & Communication Engineering.",
+    "tags": ["courses","engineering"]
+  },
+  {
+    "question": "What management and computer applications programs are available?",
+    "answer": "Management: MBA (Department of Management Studies). Computer Applications: MCA and related programs.",
+    "tags": ["mba","mca","courses"]
+  },
+  {
+    "question": "What are the fees for undergraduate programs (2025–26)?",
+    "answer": "UG Programs: total academic fee ranges roughly ₹1.95–₹2.6 Lakhs (2025–26).",
+    "tags": ["fees","ug"]
+  },
+  {
+    "question": "What are the fees for postgraduate programs (MBA/MCA)?",
+    "answer": "PG Programs (MBA/MCA): Around ₹76,000 total academic fee (2025–26).",
+    "tags": ["fees","pg","mba","mca"]
+  },
+  {
+    "question": "Does DCTM provide hostel facilities?",
+    "answer": "Yes, DCTM provides hostel facilities for students.",
+    "tags": ["hostel","infrastructure"]
+  },
+  {
+    "question": "What about placements at DCTM?",
+    "answer": "The college emphasizes placement assistance and collaborates with companies for campus recruitment, focusing on technical and soft skills development.",
+    "tags": ["placements","careers"]
+  },
+  {
+    "question": "How large is the campus and how many faculty/students are there?",
+    "answer": "Campus size is around 11 acres. There are approximately 53 faculty members and 382 students.",
+    "tags": ["campus","faculty","students"]
+  },
+  {
+    "question": "How can I apply for admission?",
+    "answer": "For admissions, check the official college website or contact the admissions office; typical steps include submitting an application form and required documents and meeting eligibility criteria for the chosen program.",
+    "tags": ["admissions","apply"]
+  }
+]

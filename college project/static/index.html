@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>DCTM Enquiry Assistant</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="brand">
+          <!-- Prefer the real attached college logo if available: `assets/dctm_logo.png` (fallback to `logo.svg`) -->
+          <img src="assets/dctm_logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="DCTM logo" class="logo"/>
+          <div class="brand-text">
+            <div class="college-name">Delhi College of Technology & Management</div>
+            <div class="college-sub">Palwal, Haryana</div>
+          </div>
+        </div>
+
+        <div class="college-card">
+          <div class="card-row"><strong>Established:</strong> <span>2008</span></div>
+          <div class="card-row"><strong>Affiliation:</strong> <span>JC Bose University, YMCA</span></div>
+          <div class="card-row"><strong>Approval:</strong> <span>AICTE</span></div>
+          <div class="card-row"><strong>Campus:</strong> <span>~11 acres</span></div>
+          <div class="card-row"><strong>Faculty / Students:</strong> <span>53 / 382</span></div>
+        </div>
+
+        <div class="faq-short">
+          <h3>Quick FAQs</h3>
+          <div id="quick-faqs" class="chips"></div>
+        </div>
+
+        <div class="contact">
+          <strong>Need more help?</strong>
+          <div class="contact-line">Visit the college website or contact admissions.</div>
+        </div>
+      </aside>
+
+      <main class="chat-panel">
+        <header class="chat-header">
+          <div class="chat-left">
+            <div class="chat-title">Enquiry Assistant</div>
+            <div class="chat-sub">Ask about admissions, courses, fees and placements</div>
+          </div>
+          <div class="chat-right">
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">🌗</button>
+          </div>
+        </header>
+
+        <div class="messages" id="messages" aria-live="polite"></div>
+
+        <form id="chat-form" class="chat-form">
+          <textarea id="question" placeholder="Type your question here. Press Enter to send (Shift+Enter for newline)." rows="1" autocomplete="off" aria-label="Question input"></textarea>
+          <button id="send" type="submit" class="send-btn">Send</button>
+        </form>
+
+        <div class="site-footer">© 2008–2025 Delhi College of Technology & Management — <a href="#">Admissions</a> • <a href="#">Contact</a></div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+  </html>
